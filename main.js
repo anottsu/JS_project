@@ -6,7 +6,7 @@ console.log(result);
 const myString = "anottsu haomaru"
 
 //USANDO VAR NA OUTPUT
-console.log(`Bem vindo ${myString}`); // passando uma var na output
+console.log(`Bem vindo ${myString}`); // passando uma var na output 
 console.log(`${myString} says:'Olá Mundo'`); // citação com var na output
 
 //PASSANDO PARA LETRAS  MAIUSCULAS E MINUSCULAS
