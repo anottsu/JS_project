@@ -9,12 +9,13 @@ if (idade <= idadeMin){
 
 else{console.log("***Você pode conduzir um veículo***");
 }
+// Saída: ***Você pode conduzir um veículo***
 
                         //USANDO  O OPERADOR TERNÁRIO
 
 idadeMin= 20
 //              condição   verificador         saídas
-console.log(idade  > idadeMin && idade < 30 ? "na faixa etária de 20 a 30" : "***fora da faixa etária***" );
+console.log(idade  > idadeMin && idade < 30 ? "na faixa etária de 20 a 30" : "***fora da faixa etária***" ); // Saída: ***fora da faixa etária***
 
 // Podemos ainda simular um comportamento semelhante ao else if encadeando múltiplos operadores ternários. PORÉM NÃO É RECOMENDADO POR DIFICULTAR A COMPREENSÃO DO CÓDIGO.
 

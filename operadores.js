@@ -25,3 +25,4 @@ console.log("A é B maior ou igual a B? ", a == b); // false
 
 
 
+
