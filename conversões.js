@@ -14,7 +14,16 @@ console.log(x === y)// comparação de  valores e tipos vai retornar FALSE
 //EXPLICITA
 //É necessário deixar explícito para JS o que queremos
 
-console.log(x+y); // Aqui ele vai entender como concatenação trazendo o resultado 3232
-// Usando a função Number() e String() deixamos explicito que queremos converter para um dos tipos
+console.log(x + y); // Aqui ele vai entender como concatenação trazendo o resultado 3232
+// Usando a função Number() e String()/toString() deixamos explicito que queremos converter para um dos tipos
 console.log(x+Number(y));// Convertemos a string para numero explicitamente com a função
 //Resultado 64
+// podemos também usar o operador + antes de uma string para convertermos o mesmo para number
+console.log(x+ +y) // resultado 64 
+console.log(x- +y)// resultado 0 
+
+x = true;
+y = false;
+
+console.log(+x)// transforma true em numero que seria o 1
+console.log(+y)// transforma false em numero que seria o 0
