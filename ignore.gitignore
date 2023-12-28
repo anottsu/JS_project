@@ -1,0 +1,10 @@
+# Arquivos de compilação
+dist/
+build/
+mateMike.js
+# Arquivos temporários
+temp.log
+*.tmp
+
+# Diretórios específicos
+node_modules/
