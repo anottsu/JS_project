@@ -1,10 +1,11 @@
 # Arquivos de compilação
 dist/
 build/
-mateMike.js
 # Arquivos temporários
 temp.log
 *.tmp
 
 # Diretórios específicos
 node_modules/
+
+/06-JS/mateMike.js
