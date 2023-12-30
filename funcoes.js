@@ -39,7 +39,7 @@ function calculaAreaQuadrado( ){// <-- NÃO PASSAMOS VARIAVEIS NENHUMA NESSA FUN
     b = 10, h = 100; // modificando o valor de b e h 
     console.log(` os valores locais de b é ${b} e de h é ${h} `) // saída: 10 e 100
     area = (b * h)/2; // calculo sobre b e h modificada local
-    return area; // retorno do resultado
+    return area; // retorno do resultado.
 }
 calculaAreaQuadrado(b,h) // CHAMANDO A FUNÇÃO 
 resultado = area; // armazenando o return de area em resultado
