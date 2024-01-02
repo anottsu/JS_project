@@ -36,6 +36,11 @@ console.log(myString.replace(/\b\w/g, (char)=>char.toUpperCase()));// as primeir
 // console.log(Math.round(result)); // arredonda o valor
 // console.log(Math.ceil(result)); // arredonda o valor para CIMA
 // console.log(Math.floor(result)); // arredonda o valor para BAIXO
+//Math.trunc() : Desconsidera os números decimais, o que é conhecido como truncamento.
+// Math.trunc(4.3) retorna 4
+// Math.trunc(4.8) retorna 4
+
+
 
 console.log(result.toFixed(4)); // fixa as casas decimais em quantos numeros selecionar
 
