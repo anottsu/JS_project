@@ -11,11 +11,12 @@ function myFunction(x,y) // PASSAGEM DE PARÂMETROS
 
 //EXIBINDO UMA VÁRIAVEL DO TIPO VAR ANTES DE DECLARÁ-LA
 console.log(nome);
-var nome ="anottsu"; // saída ficou como undefined????? Entender o por que. ?????
+var nome ="anottsu";
+ //  No código fornecido, ocorrerá um erro de referência(UNDEFINED) ao tentar imprimir a variável "nome" antes de sua declaração. Isso acontece porque, no JavaScript, as declarações de variáveis com "var" são "içadas" para o topo do código pelo interpretador antes de executar o código, mas apenas a declaração é içada, não a atribuição de valor. Portanto, a variável "nome" será declarada, mas seu valor será undefined. Para evitar esse erro, é recomendado declarar a variável antes de tentar acessá-la.
 
  console.log("______________________________________________________________________________")
 
 // EXPRESSÕES - DE FORMA PRÁTICA PODEMOS DECLARÁ-LAS EM UMA LINHA, MAS NÃO PODEMOS CHAMÁ-LAS ANTES DA DECLARAÇÃO CONFORME FIZEMOS COM A FUNÇÃO myFunction() acima
 
 const soma = function(x,y){return x + y;}
-console.log(soma(5,5)) // saída 10
+console.log(soma(5,5)); // saída 10
